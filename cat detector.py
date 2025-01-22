@@ -3,9 +3,9 @@ from datetime import datetime
 import time
 
 # Paths to the YOLO model files
-weights_path = "Q:\\RA Pictures\\yolov4_new.weights"      
-config_path = "Q:\\RA Pictures\\yolov4.cfg"            
-classes_file = "Q:\\RA Pictures\\coco.names"
+weights_path = "YOUR PATH HERE"      
+config_path = "YOUR PATH HERE"            
+classes_file = "YOUR PATH HERE"
 
 # Load class names
 with open(classes_file, "r") as f:
